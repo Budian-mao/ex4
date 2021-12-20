@@ -1,0 +1,12 @@
+[debug] Created transactional ClassFileManager with tempDir = H:\大三上课程内容\金融大数据\实验4\p4\pro4\target\scala-2.11\classes.bak
+[debug] About to delete class files:
+[debug] We backup class files:
+[debug] Registering generated classes:
+[debug] 	predict$$anonfun$1.class
+[debug] 	predict$.class
+[debug] 	predict$Data$.class
+[debug] 	predict$$anonfun$2.class
+[debug] 	predict.class
+[debug] 	predict$$typecreator5$1.class
+[debug] 	predict$Data.class
+[debug] Removing the temporary directory used for backing up class files: H:\大三上课程内容\金融大数据\实验4\p4\pro4\target\scala-2.11\classes.bak

@@ -1,0 +1,17 @@
+[debug] Packaging H:\大三上课程内容\金融大数据\实验4\p4\pro4\target\scala-2.11\spark-scala-demo_2.11-1.0.jar ...
+[debug] Input file mappings:
+[debug] 	predict$$anonfun$1.class
+[debug] 	  H:\大三上课程内容\金融大数据\实验4\p4\pro4\target\scala-2.11\classes\predict$$anonfun$1.class
+[debug] 	predict$$anonfun$2.class
+[debug] 	  H:\大三上课程内容\金融大数据\实验4\p4\pro4\target\scala-2.11\classes\predict$$anonfun$2.class
+[debug] 	predict$$typecreator5$1.class
+[debug] 	  H:\大三上课程内容\金融大数据\实验4\p4\pro4\target\scala-2.11\classes\predict$$typecreator5$1.class
+[debug] 	predict$.class
+[debug] 	  H:\大三上课程内容\金融大数据\实验4\p4\pro4\target\scala-2.11\classes\predict$.class
+[debug] 	predict$Data$.class
+[debug] 	  H:\大三上课程内容\金融大数据\实验4\p4\pro4\target\scala-2.11\classes\predict$Data$.class
+[debug] 	predict$Data.class
+[debug] 	  H:\大三上课程内容\金融大数据\实验4\p4\pro4\target\scala-2.11\classes\predict$Data.class
+[debug] 	predict.class
+[debug] 	  H:\大三上课程内容\金融大数据\实验4\p4\pro4\target\scala-2.11\classes\predict.class
+[debug] Done packaging.

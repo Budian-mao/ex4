@@ -1,0 +1,89 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.5.7 (Oracle Corporation Java 1.8.0_151-1-redhat)
+[debug] Load.defaultLoad until apply took 421.3006ms
+[debug]           Load.loadUnit: plugins took 93.767ms
+[debug]           Load.loadUnit: defsScala took 0.3904ms
+[debug] [Loading] Scanning directory H:\大三上课程内容\金融大数据\实验4\p4\pro4\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in H:\大三上课程内容\金融大数据\实验4\p4\pro4\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 16.3004 ms
+[debug]               Load.resolveProject(pro4-build) took 39.2968ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id pro4-build, base: H:\大三上课程内容\金融大数据\实验4\p4\pro4\project, plugins: List(<none>))) took 75.8243ms
+[debug] [Loading] Done in H:\大三上课程内容\金融大数据\实验4\p4\pro4\project, returning: (pro4-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 93.0754ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.1899ms
+[debug]         Load.loadUnit(file:/H:/大三上课程内容/金融大数据/实验4/p4/pro4/project/, ...) took 206.1795ms
+[debug]       Load.apply: load took 350.2409ms
+[debug]       Load.apply: resolveProjects took 6.7593ms
+[debug]       Load.apply: finalTransforms took 66.4758ms
+[debug]       Load.apply: config.delegates took 8.7636ms
+[debug]       Load.apply: Def.make(settings)... took 347.1747ms
+[debug]       Load.apply: structureIndex took 79.1505ms
+[debug]       Load.apply: mkStreams took 1.7149ms
+[info] loading project definition from H:\大三上课程内容\金融大数据\实验4\p4\pro4\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 1639.1465ms
+[debug]     Load.loadUnit: defsScala took 0.0025ms
+[debug] [Loading] Scanning directory H:\大三上课程内容\金融大数据\实验4\p4\pro4
+[debug]       Load.loadUnit: mkEval took 5.7924ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in H:\大三上课程内容\金融大数据\实验4\p4\pro4, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.8283 ms
+[info] loading settings for project pro4 from build.sbt ...
+[debug]         Load.resolveProject(pro4) took 3.284ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id pro4, base: H:\大三上课程内容\金融大数据\实验4\p4\pro4, plugins: List(<none>))) took 5.8493ms
+[debug] [Loading] Done in H:\大三上课程内容\金融大数据\实验4\p4\pro4, returning: (pro4)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1911.6593ms
+[debug]     Load.loadUnit: cleanEvalClasses took 9.2815ms
+[debug]   Load.loadUnit(file:/H:/大三上课程内容/金融大数据/实验4/p4/pro4/, ...) took 3561.2963ms
+[debug] Load.apply: load took 3577.8975ms
+[debug] Load.apply: resolveProjects took 0.1219ms
+[debug] Load.apply: finalTransforms took 20.2244ms
+[debug] Load.apply: config.delegates took 0.4976ms
+[debug] Load.apply: Def.make(settings)... took 100.9265ms
+[debug] Load.apply: structureIndex took 24.1277ms
+[debug] Load.apply: mkStreams took 0.0024ms
+[info] set current project to Spark Scala Demo (in build file:/H:/大三上课程内容/金融大数据/实验4/p4/pro4/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-6adb982cf20d91baaf08
+[debug] Writing bsp connection file
+[info] started sbt server
